@@ -1,0 +1,9 @@
+config load "D:\aaa_Engineering\STM32_Project\The_Fourth_Assignment_1_2\The_Fourth_Assignment_1_2.ioc"
+project name The_Fourth_Assignment_1_2
+project path "D:\aaa_Engineering\STM32_Project\The_Fourth_Assignment_1_2"
+project toolchain Makefile
+project compiler GCC
+SetCopyLibrary "copy only"
+project setCustomFWPath "C:\Users\Shinomiya\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7"
+project generate
+exit

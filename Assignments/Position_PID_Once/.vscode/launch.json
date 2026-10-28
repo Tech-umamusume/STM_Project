@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "STM32: STLink + OpenOCD",
+      "type": "cortex-debug",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/build/Debug/The_Fourth_Assignment_1_2.elf",
+      "servertype": "openocd",
+      "configFiles": [
+        "interface/stlink.cfg",
+        "target/stm32f1x.cfg"
+      ],
+      "serverpath": "D:\\OpenOCD-20250710-0.12.0\\bin\\openocd.exe",
+      "armToolchainPath": "D:\\arm-gnu-toolchain\\14.3 rel1\\bin",
+      "toolchainPrefix": "arm-none-eabi",
+      "runToEntryPoint": "main",
+      "preLaunchTask": "STM32: Build"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "EIDE.ARM.GCC.InstallDirectory": "D:\\arm-gnu-toolchain\\14.3 rel1",
+    "EIDE.ARM.GCC.Prefix": "arm-none-eabi-",
+    "EIDE.SourceTree.AutoSearchIncludePath": true,
+    "EIDE.SourceTree.AutoSearchObjFile": true,
+    "C_Cpp.default.configurationProvider": "cl.eide",
+    "git.path": "D:\\Git\\cmd\\git.exe",
+    "debug.onTaskErrors": "abort"
+  }
+}
