@@ -1,0 +1,3 @@
+/build/
+/.stm32-auto/backups/
+/.stm32-auto/*.log
